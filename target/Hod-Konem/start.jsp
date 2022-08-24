@@ -373,7 +373,8 @@
 
         if (list.length === 0 && currentCell !== -1) {
             const score = <%=StaticCounter.count%>
-                grow(0);
+                if (score === 100){win(0)}
+                else {grow(0);}
                 $(".results").text("Ты заполнил: " + (score - 1) + " клеток.")
         }
     })
@@ -385,6 +386,15 @@
         $foo.css('padding', 5 +'px')
         $foo.css('padding-top', 20 +'px')
         $(".GameOver").text("GAME OVER")
+    }
+
+    win = function (size) {
+        $foo.css('height', 70 + 'px');
+        $foo.css('border', 3 + 'px solid black')
+        $foo.css('padding', 5 +'px')
+        $foo.css('padding-top', 20 +'px')
+        $foo.css('background-color', 'yellow')
+        $(".GameOver").text("YOU WIN!")
     }
 
 
