@@ -1,0 +1,17 @@
+.available {
+    background-color: limegreen;
+    height: 50px;
+    width: 50px;
+}
+
+table, td {
+    margin-left: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    height: 40px;
+    width: 40px;
+}
+
