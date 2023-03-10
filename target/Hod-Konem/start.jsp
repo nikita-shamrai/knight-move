@@ -119,11 +119,11 @@
     </style>
 </head>
 <body>
-<h1 class="game-name">Ход ♞</h1>
-<h4 class="rules-for-stupid">После первого хода ты сможешь двигаться по полю только так, как ходит шахматный конь.<br>
-Твоя задача - пройти все клетки поля, заполняя его цифрами.</h4>
-<h3 class="game-rules">Сможешь заполнить все 100 клеток?</h3>
-<h4 class="game-start">Нажми на клетку, с которой хочешь начать игру.</h4>
+<h1 class="game-name">♞ move</h1>
+<h4 class="rules-for-stupid">After the first move, you can only move around the field in the same way as a chess knight moves.<br>
+    Your task is to go through all the cells of the field, filling it with numbers.</h4>
+<h3 class="game-rules">Can you fill all 100 cells?</h3>
+<h4 class="game-start">Click on the cell with which you want to start the game.</h4>
 <div class="table-div">
     <table id="table">
         <%@ page import="Field.Field" %>
@@ -375,7 +375,7 @@
             const score = <%=StaticCounter.count%>
                 if (score === 100){win(0)}
                 else {grow(0);}
-                $(".results").text("Ты заполнил: " + (score - 1) + " клеток.")
+                $(".results").text("You filled: " + (score - 1) + " cells.")
         }
     })
     var $foo = $('.GameOver');
