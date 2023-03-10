@@ -15,7 +15,7 @@ git clone https://github.com/nikita-shamrai/knight-move.git
 ## How to Run
 
 * After configuring TomCat Server the app will start automatically in browser.
-  By default the app will start running at <http://localhost:8080/knight-move/>**
+  By default the app will start running at <http://localhost:8080/knight-move/>
 
 ## Game Process
 * First you will see game rules and field. Try to **click on any cell** to make your first move.
