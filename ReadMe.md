@@ -19,17 +19,13 @@ git clone https://github.com/nikita-shamrai/knight-move.git
 
 ## Game Process
 * First you will see game rules and field. Try to **click on any cell** to make your first move.
-
-![Game_start](img/start.PNG "Start")
-
 * After making your first move you will see the **cells available** to make your next move.
-Try **click on any green cell** and go on.
-
-
-  ![First_move](img/first_move.PNG "First_move")
-
+    Try **click on any green cell** and go on.
 * When there will be **no cells available** to move the game is over. You will see your score.
 
-![Game_over](img/game_over.PNG "Game_over")
+
+![Game_process](knight-move.gif)
+____
+
 
 ## Try to reach 100! Enjoy the game
